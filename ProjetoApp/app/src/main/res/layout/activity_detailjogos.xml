@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000"
+	tools:context=".DetailJogos">
+
+
+	<EditText
+		android:id="@+id/editTextIdUm"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="24dp"
+		android:layout_marginEnd="32dp"
+		android:textColor="@color/pon"
+		android:background="@drawable/retang"
+		android:hint="@string/id_equipa_1"
+		android:paddingStart="8dp"
+		android:textAlignment="textStart"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+	<EditText
+		android:id="@+id/editTextIdDois"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="32dp"
+		android:textColor="@color/pon"
+		android:background="@drawable/retang"
+		android:hint="@string/id_equipa_2"
+		android:paddingStart="8dp"
+		android:textAlignment="textStart"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextIdUm" />
+
+	<EditText
+		android:id="@+id/editTextNomeEquipaUm"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="32dp"
+		android:background="@drawable/retang"
+		android:hint="@string/nome_da_equipa_um"
+		android:paddingStart="8dp"
+		android:textColor="@color/pon"
+		android:textAlignment="textStart"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextIdDois" />
+
+	<EditText
+		android:id="@+id/editTextNomeEquipaDois"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="32dp"
+		android:textColor="@color/pon"
+		android:background="@drawable/retang"
+		android:hint="@string/nome_da_equipa_dois"
+		android:paddingStart="8dp"
+		android:textAlignment="textStart"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextNomeEquipaUm" />
+
+	<Button
+		android:id="@+id/btnAddJogo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+		android:background="@drawable/bottom_bar_shape"
+		android:text="@string/criar_jogo"
+		android:textColor="@color/hub"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextGolosDois" />
+
+	<EditText
+		android:id="@+id/editTextGolosUm"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="32dp"
+		android:background="@drawable/retang"
+		android:ems="10"
+		android:hint="@string/golos_da_equipa_1"
+		android:inputType="number"
+		android:paddingStart="8dp"
+		android:textAlignment="textStart"
+		android:textColor="@color/pon"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextNomeEquipaDois" />
+
+	<EditText
+		android:id="@+id/editTextGolosDois"
+		android:layout_width="0dp"
+		android:layout_height="40dp"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="32dp"
+		android:background="@drawable/retang"
+		android:ems="10"
+		android:hint="@string/golos_da_equipa_2"
+		android:inputType="number"
+		android:paddingStart="8dp"
+		android:textAlignment="textStart"
+		android:textColor="@color/pon"
+		android:textColorHint="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.484"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editTextGolosUm" />
+
+	<ImageView
+		android:id="@+id/imageView5"
+		android:layout_width="177dp"
+		android:layout_height="147dp"
+		android:layout_marginTop="32dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.497"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/bolafut" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

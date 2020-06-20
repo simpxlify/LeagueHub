@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/hub"
+	tools:context=".DetailRowEquipa">
+
+	<TextView
+		android:id="@+id/textView12"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/localiza_o"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewInitialsRow" />
+
+	<TextView
+		android:id="@+id/textView16"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/treinador"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewLocationRow" />
+
+	<TextView
+		android:id="@+id/textViewInitialsRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+	<Button
+		android:id="@+id/btnListarLineup"
+		android:layout_width="179dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="76dp"
+		android:background="@drawable/bottom_bar_shape"
+		android:text="@string/ver_a_forma_o"
+		android:textColor="@color/hub"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewCoachRow" />
+	<Button
+		android:id="@+id/btnVerJogadoresdaEquipa"
+		android:layout_width="179dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="36dp"
+		android:background="@drawable/bottom_bar_shape"
+		android:text="@string/criar_jogadores_na_equipa"
+		android:textColor="@color/hub"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.497"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnListarLineup" />
+	<TextView
+		android:id="@+id/textView9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/detalhes_da_equipa"
+		android:textColor="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/textView10"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="52dp"
+		android:text="@string/nome_detalhes_rowgeral"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+	<TextView
+		android:id="@+id/textViewNomeRowE"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+	<TextView
+		android:id="@+id/textViewLocationRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+	<TextView
+		android:id="@+id/textViewCoachRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+	<TextView
+		android:id="@+id/textView13"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/iniciais"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewNomeRowE" />
+
+
+	<LinearLayout
+		android:id="@+id/lin"
+		android:layout_width="384dp"
+		android:layout_height="59dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="18dp"
+		android:layout_marginEnd="18dp"
+		android:layout_marginBottom="22dp"
+		android:background="@drawable/bottom_bar_shape"
+		android:elevation="5dp"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:padding="5dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent">
+
+
+		<ImageButton
+			android:id="@+id/homeBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_home_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/torneiosBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_marginStart="52dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_emoji_events_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/equipasBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/baseline_people_alt_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/jogadoresBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_marginStart="52dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_person_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/sedesBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="33dp"
+			android:layout_margin="10dp"
+			android:layout_marginEnd="40dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_place_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+	</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

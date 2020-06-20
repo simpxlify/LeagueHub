@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/hub"
+	tools:context=".Estatisticas">
+
+
+	<TextView
+		android:id="@+id/textViewStandardDeviationAwayGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="14sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView28"
+		app:layout_constraintStart_toStartOf="@+id/textView28"
+		app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+	<TextView
+		android:id="@+id/textViewTotalTeams"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView5"
+		app:layout_constraintStart_toStartOf="@+id/textView5"
+		app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+	<TextView
+		android:id="@+id/textViewTotalHomeGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView18"
+		app:layout_constraintStart_toStartOf="@+id/textView18"
+		app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+	<TextView
+		android:id="@+id/textViewAverageGoalsTeam"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView21"
+		app:layout_constraintStart_toStartOf="@+id/textView21"
+		app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+	<TextView
+		android:id="@+id/textViewTotalGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView17"
+		app:layout_constraintStart_toStartOf="@+id/textView17"
+		app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+	<TextView
+		android:id="@+id/textViewAverageGoalsGame"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView20"
+		app:layout_constraintStart_toStartOf="@+id/textView20"
+		app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+	<TextView
+		android:id="@+id/textViewAverageHomeGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView22"
+		app:layout_constraintHorizontal_bias="0.428"
+		app:layout_constraintStart_toStartOf="@+id/textView22"
+		app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+	<TextView
+		android:id="@+id/textViewStandardDeviationTeam"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="14sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView24"
+		app:layout_constraintStart_toStartOf="@+id/textView24"
+		app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+	<TextView
+		android:id="@+id/textViewStandardDeviationHomeGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="14sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView27"
+		app:layout_constraintStart_toStartOf="@+id/textView27"
+		app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+	<TextView
+		android:id="@+id/textViewStandardDeviationGame"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="14sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView25"
+		app:layout_constraintStart_toStartOf="@+id/textView25"
+		app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+	<TextView
+		android:id="@+id/textViewTotalGames"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView19"
+		app:layout_constraintStart_toStartOf="@+id/textView19"
+		app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+	<TextView
+		android:id="@+id/textViewTotalAwayGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView15"
+		app:layout_constraintStart_toStartOf="@+id/textView15"
+		app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+	<TextView
+		android:id="@+id/textViewAverageAwayGoals"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="@+id/textView23"
+		app:layout_constraintStart_toStartOf="@+id/textView23"
+		app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+	<TextView
+		android:id="@+id/textView9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/estatisticas"
+		android:textColor="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<TextView
+		android:id="@+id/textView5"
+		android:gravity="center_horizontal|center_vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="24dp"
+		android:text="@string/n_total_de_equipas"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+	<TextView
+		android:id="@+id/textView15"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+
+		android:layout_marginTop="24dp"
+		android:layout_marginEnd="32dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/n_total_de_golos_fora"
+		android:textColor="@color/jornal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTotalGoals" />
+
+	<TextView
+		android:id="@+id/textView17"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="80dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/n_total_de_golos"
+		android:textColor="@color/jornal"
+		app:layout_constraintEnd_toStartOf="@+id/textView19"
+		app:layout_constraintHorizontal_bias="0.465"
+		app:layout_constraintStart_toEndOf="@+id/textView5"
+		app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+	<TextView
+		android:id="@+id/textView18"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="24dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/n_total_de_golos_em_casa"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTotalGoals" />
+
+	<TextView
+		android:id="@+id/textView19"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:layout_marginEnd="16dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/n_total_de_jogos"
+		android:textColor="@color/jornal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+	<TextView
+		android:id="@+id/textView20"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="48dp"
+		android:layout_marginEnd="32dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/media_de_golos_por_jogo"
+		android:textColor="@color/jornal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTotalAwayGoals" />
+
+	<TextView
+		android:id="@+id/textView21"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="48dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/media_de_golos_por_equipa"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTotalHomeGoals" />
+
+	<TextView
+		android:id="@+id/textView22"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="48dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/media_de_golos_em_casa"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewStandardDeviationTeam" />
+
+	<TextView
+		android:id="@+id/textView24"
+		android:textColor="@color/jornal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="DESVIO PADRÃO"
+		android:textSize="12sp"
+		app:layout_constraintEnd_toEndOf="@+id/textViewAverageGoalsTeam"
+		app:layout_constraintStart_toStartOf="@+id/textViewAverageGoalsTeam"
+		app:layout_constraintTop_toBottomOf="@+id/textViewAverageGoalsTeam" />
+
+	<TextView
+		android:id="@+id/textView25"
+		android:textColor="@color/jornal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="DESVIO PADRÃO"
+		android:textSize="12sp"
+		app:layout_constraintEnd_toEndOf="@+id/textViewAverageGoalsGame"
+		app:layout_constraintStart_toStartOf="@+id/textViewAverageGoalsGame"
+		app:layout_constraintTop_toBottomOf="@+id/textViewAverageGoalsGame" />
+
+	<TextView
+		android:id="@+id/textView27"
+		android:textColor="@color/jornal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="DESVIO PADRÃO"
+		android:textSize="12sp"
+		app:layout_constraintEnd_toEndOf="@+id/textViewAverageHomeGoals"
+		app:layout_constraintStart_toStartOf="@+id/textViewAverageHomeGoals"
+		app:layout_constraintTop_toBottomOf="@+id/textViewAverageHomeGoals" />
+
+	<TextView
+		android:id="@+id/textView28"
+		android:textColor="@color/jornal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="DESVIO PADRÃO"
+		android:textSize="12sp"
+		app:layout_constraintEnd_toEndOf="@+id/textViewAverageAwayGoals"
+		app:layout_constraintStart_toStartOf="@+id/textViewAverageAwayGoals"
+		app:layout_constraintTop_toBottomOf="@+id/textViewAverageAwayGoals" />
+
+	<TextView
+		android:id="@+id/textView23"
+		android:layout_width="wrap_content"
+
+		android:layout_height="wrap_content"
+		android:layout_marginTop="48dp"
+		android:layout_marginEnd="32dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:text="@string/media_de_golos_fora"
+		android:textColor="@color/jornal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewStandardDeviationGame" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

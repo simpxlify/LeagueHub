@@ -1,0 +1,184 @@
+<resources>
+	<string name="app_name" translatable="false">LeagueHub</string>
+	<string name="termos_e_condi_es"><u>Termos e Condições</u></string>
+	<string name="registe_se"><u>Registe-se</u></string>
+	<string name="esqueci_me_da_palavra_passe"><u>Esqueci-me da palavra-passe</u></string>
+	<string name="textoterms1">Por favor, leia os Termos e Condições cuidadosamente antes de usar o League Hub.O acesso e uso do Serviço está condicionada à sua aceitação e cumprimento destes Termos.Estes termos aplicam-se a todos os visitantes, usuários e outros que acessam ou usam o serviço.Ao acessar ou utilizar o Serviço você concorda em ficar vinculado por estes Termos.Se você não concordar com qualquer parte dos termos, então você não pode acessar o serviço.</string>
+	<string name="textoterms2">........................................CONTAS.........................................  Quando você cria uma conta conosco, você deve nos fornecer informações precisas, completas e atuais em todos os momentos.Não fazê-lo constitui uma violação dos Termos, que podem resultar na rescisão imediata de sua conta no nosso serviço.Você é responsável por proteger a senha que você usa para acessar o serviço epara quaisquer atividades ou ações sob sua senha, se a senha é com nosso serviço ou um serviço de terceiros.Você concorda em não divulgar sua senha a terceiros.Você deve nos notificar imediatamente após tomar conhecimento de qualquer violação de segurança ou uso não autorizado de sua conta.</string>
+	<string name="textotermos3">......................LINKS PARA OUTROS WEBSITES....................
+                Nosso serviço pode conter links para sites de terceiros ou serviços que não são de propriedade ou controladas por League Hub.League Hub não tem controle sobre, e não assume nenhuma responsabilidade pelo conteúdo, políticas de privacidade ou práticas de sites ou serviços de terceiros.
+
+Você também reconhece e concorda que Bahama Breeze não será responsável ou responsáveis, direta ou indiretamente, por qualquer dano ou perda causada ou
+
+ alegadamente causados ​​por ou em conexão com o uso ou confiança em qualquer conteúdo, bens ou serviços disponíveis em ou através de tais sites ou serviços.Aconselhamos vivamente que você leia os termos e condições e políticas de privacidade de quaisquer sites de terceiros ou serviços que você visita.
+
+</string>
+	<string name="textotermos4">..................................TERMINAÇÃO......................................
+
+                Podemos cancelar ou suspender o acesso ao nosso serviço imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo,
+
+                incluindo, sem limitação, se você violar os Termos.
+
+                Todas as disposições dos Termos que por sua natureza devem sobreviver ao término após a rescisão, incluindo, sem limitação,
+
+                disposições de propriedade, isenções de garantia, indenização e limitações de responsabilidade.
+
+                Podemos cancelar ou suspender sua conta imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo,
+
+                incluindo, sem limitação, se você violar os Termos.
+
+                Após o término, o seu direito de utilizar o Serviço cessará imediatamente. Se você deseja encerrar sua conta,
+                você pode simplesmente interromper o uso do serviço.
+
+                Todas as disposições dos Termos que por sua natureza devem sobreviver ao término após a rescisão, inclusive,
+
+                sem limitação, as disposições de propriedade, isenções de garantia, indenização e limitações de responsabilidade.
+
+</string>
+	<string name="textotermos5">..........................LEGISLAÇÃO APLICAVEL............................                Estes Termos serão regidos e interpretados de acordo com as leis de Portugal, sem consideração com seu conflito às disposições da lei.
+
+                Nossa incapacidade de cumprir qualquer direito ou disposição destes Termos não será considerada uma renúncia de tais direitos.
+
+                Se qualquer disposição destes Termos for considerada inválida ou inexequível por um tribunal, as restantes disposições destas Condições permanecerão em vigor.
+
+                Estes Termos constituem a totalidade do acordo entre nós sobre o nosso Serviço, e anulam e substituem quaisquer acordos prévios que possam ter entre nós a respeito do serviço.</string>
+	<string name="textotermos6">....................................ALTERAÇÕES.....................................
+
+                Reservamo-nos o direito, a nosso exclusivo critério, modificar ou substituir esses Termos a qualquer momento.
+
+                Se a revisão é material, vamos tentar fornecer pelo menos 30 dias de antecedência antes de quaisquer novos termos em vigor.
+
+                O que constitui uma alteração material será determinado a nosso critério.
+
+                Ao continuar a aceder ou utilizar o nosso Serviço após essas revisões se tornar eficaz, você concorda em se comprometer com os termos revisados.
+
+                Se você não concordar com os novos termos, por favor, pare de usar o serviço.
+
+</string>
+	<string name="textotermos7">....................................CONTACTE-NOS.......................................
+
+                Se você tem dúvidas sobre estes Termos, por favor contacte-nos.</string>
+	<string name="login_failed"> Login errado</string>
+	<string name="somos">Somos tres estudantes do 1º ano de Aplicações Moveis do Instituto Politécnico do Cávado e do Ave.\n
+    	\n David Moreira Nº18054\n
+		\n Tiago Silva Nº18056\n
+		\n Tiago Lopes Nº18061\n
+    	\n Com este projeto pretendemos demonstrar o quanto aprendemos a todos os niveis este segundo semestre.</string>
+	<string name="registar_failed"> Falha ao registar</string>
+	<string name="add_recupwfailed"> Falha ao recuperar palavra-passe</string>
+	<string name="add_recupsuccess"> Palavra-passe recuperada com sucesso</string>
+	<string name="add_jogadorfailed"> Falha ao criar jogador</string>
+	<string name="add_jogadorsuccess"> Jogador criado com sucesso</string>
+	<string name="add_sedesfailed"> Falha ao criar sede</string>
+	<string name="add_sedessuccess"> Sede criado com sucesso</string>
+	<string name="add_equipasfailed"> Falha ao criar equipa</string>
+	<string name="add_equipassuccess"> Equipa criado com sucesso</string>
+	<string name="add_torneiosfailed"> Falha ao criar torneio</string>
+	<string name="add_torneiossuccess"> Torneio criado com sucesso</string>
+	<string name="add_adsfailed"> Falha ao criar publicidade</string>
+	<string name="add_adssuccess"> Publicidade criada com sucesso</string>
+	<string name="add_jogosfailed"> Falha ao criar jogo</string>
+	<string name="add_jogossuccess"> Jogo criado com sucesso</string>
+	<string name="add_delfailed"> Falha ao eliminar</string>
+	<string name="add_delsuccess"> Eliminado com sucesso</string>
+	<string name="wpw"> As passwords não correspondem </string>
+	<string name="artigo">Artigo</string>
+	<string name="criar_publicidade">Criar Publicidade</string>
+	<string name="corpo_da_publicidade">Corpo da publicidade</string>
+	<string name="titulo_da_publicidade">Titulo da Publicidade</string>
+	<string name="nome_detalhes_rowgeral">Nome</string>
+	<string name="iniciais">Iniciais</string>
+	<string name="localiza_o">Estadio</string>
+	<string name="ver_a_forma_o">Ver a formação</string>
+	<string name="detalhes_da_equipa">Detalhes da Equipa</string>
+	<string name="detalhes_do_jogador">Detalhes do Jogador</string>
+	<string name="primeiro_nome">Primeiro Nome</string>
+	<string name="ultimo_nome">Ultimo Nome</string>
+	<string name="idade">Idade</string>
+	<string name="altura">Altura</string>
+	<string name="detalhes_do_torneio">Detalhes do Torneio</string>
+	<string name="pr_mio">Prêmio</string>
+	<string name="data_inicial">Data Inicial</string>
+	<string name="data_final">Data Final</string>
+	<string name="ver_jogos_do_torneio">Ver jogos do torneio</string>
+	<string name="ver_equipas_do_torneio">Ver equipas do torneio</string>
+	<string name="introduza_o_nome_da_equipa">Nome</string>
+	<string name="introduza_as_iniciais_da_equipa">Iniciais</string>
+	<string name="introduza_a_localiza_o_da_equipa">Estadio</string>
+	<string name="criar_equipa">Criar Equipa</string>
+	<string name="introduza_o_primeiro_nome_do_jogador">Primeiro nome</string>
+	<string name="introduza_o_ultimo_nome_do_jogador">Ultimo nome</string>
+	<string name="introduza_a_idade_do_jogador">Idade</string>
+	<string name="introduza_a_altura_do_jogador">Altura</string>
+	<string name="criar_jogador">Criar Jogador</string>
+	<string name="id_equipa_1">ID Equipa 1</string>
+	<string name="id_equipa_2">ID Equipa 2</string>
+	<string name="nome_da_equipa_um">Nome da Equipa Um</string>
+	<string name="nome_da_equipa_dois">Nome da Equipa Dois</string>
+	<string name="golos_da_equipa_1">Golos da Equipa 1</string>
+	<string name="golos_da_equipa_2">Golos da Equipa 2</string>
+	<string name="criar_jogo">Criar Jogo</string>
+	<string name="nome_do_estadio">Nome do estadio/sede</string>
+	<string name="morada">Morada</string>
+	<string name="nome_do_torneio">Nome do torneio</string>
+	<string name="equipas">Equipas</string>
+	<string name="estatisticas">Estatisticas</string>
+	<string name="jogadores">Jogadores</string>
+	<string name="criar_jogadores">Criar Jogadores</string>
+	<string name="criar_jogos">Criar Jogos</string>
+	<string name="forma_o">Formação</string>
+	<string name="entrar">Entrar</string>
+	<string name="n_o_tem_conta">Não tem conta?</string>
+	<string name="recuperar">Recuperar</string>
+	<string name="username">Nome de utilizador</string>
+	<string name="nome">Nome</string>
+	<string name="email">Email</string>
+	<string name="password">Palavra-passe</string>
+	<string name="confirmar_palavra_passe">Confirmar palavra-passe</string>
+	<string name="eu_aceito_os">Eu aceito os</string>
+	<string name="registar">Registar</string>
+	<string name="sedes">Sedes</string>
+	<string name="criar_sede">Criar Sede</string>
+	<string name="quem_somos">Quem somos?</string>
+	<string name="e_o_que_fazemos">e o que fazemos?</string>
+	<string name="torneios">Torneios</string>
+	<string name="criar_torneio">Criar Torneio</string>
+	<string name="nome_da_equipa">Nome da Equipa:</string>
+	<string name="iniciaiseq">Iniciais:</string>
+	<string name="localiza_oeq">Localização:</string>
+	<string name="primeiro_nomej">Primeiro nome:</string>
+	<string name="ultimo_nomej">Ultimo nome:</string>
+	<string name="idadej">Idade:</string>
+	<string name="alturaj">Altura:</string>
+	<string name="nome_da_sede_estadio">Nome da Sede/Estadio:</string>
+	<string name="moradased">Morada:</string>
+	<string name="nome_do_torneiotor">Nome do Torneio:</string>
+	<string name="pr_miotor">Prêmio:</string>
+	<string name="recuperar_a_palavra_passe">RECUPERAR A PALAVRA-PASSE</string>
+	<string name="ver_estatistica_dos_jogos">Ver Estatistica dos Jogos do Torneio</string>
+	<string name="pa_s">País</string>
+	<string name="posi_o">Posição</string>
+	<string name="treinador">Treinador</string>
+	<string name="ver_jogadores_da_equipa">Ver jogadores da equipa</string>
+	<string name="jogos">Jogos</string>
+	<string name="media_de_golos_em_casa">MEDIA DE \nGOLOS EM CASA</string>
+	<string name="media_de_golos_por_equipa">MEDIA DE \nGOLOS POR EQUIPA</string>
+	<string name="media_de_golos_por_jogo">MEDIA DE \nGOLOS POR JOGO</string>
+	<string name="n_total_de_jogos">Nº TOTAL \nDE JOGOS</string>
+	<string name="n_total_de_golos_em_casa">Nº TOTAL \nDE GOLOS EM CASA</string>
+	<string name="n_total_de_golos">Nº TOTAL \nDE GOLOS</string>
+	<string name="n_total_de_golos_fora">Nº TOTAL \nDE GOLOS FORA</string>
+	<string name="n_total_de_equipas">Nº TOTAL \nDE EQUIPAS</string>
+	<string name="media_de_golos_fora">MEDIA \nDE GOLOS FORA</string>
+	<string name="criar_jogadores_na_equipa">Criar jogadores na equipa</string>
+	<string name="criar_equipa_no_torneio">Criar equipa no torneio</string>
+	<string name="criar_jogador_na_equipa">Criar jogador na equipa</string>
+	<string name="nova_palavra_passe">Nova palavra-passe</string>
+	<string name="confirmar_nova_palavra_passe">Confirmar nova palavra-passe</string>
+	<string name="termos_e_condi_es2">TERMOS E CONDIÇÕES</string>
+	<string name="titulo">Titulo</string>
+	<string name="corpo_ads">Corpo Ads</string>
+	<string name="data">Data</string>
+	<string name="camposvazios">Tem campos vazios</string>
+</resources>
+

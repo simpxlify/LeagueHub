@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.projetoapp">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/trofeuiconapp"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/Theme.Design.NoActionBar"
+		android:usesCleartextTraffic="true">
+		<activity android:name=".DetailAds" />
+		<activity android:name=".SobreNos" />
+		<activity android:name=".DetailJogos" />
+		<activity android:name=".Estatisticas" />
+		<activity android:name=".ArticleDetailActivity" />
+		<activity android:name=".Lineup" />
+		<activity android:name=".DetailRowJogadores" />
+		<activity android:name=".DetailRowEquipa" />
+		<activity android:name=".DetailRowTorneio" />
+		<activity android:name=".Jogos" />
+		<activity android:name=".DetailSedes" />
+		<activity android:name=".DetailTorneio" />
+		<activity android:name=".Sedes" />
+		<activity android:name=".Torneios" />
+		<activity android:name=".Home" />
+		<activity android:name=".Login" />
+		<activity android:name=".Termos" />
+		<activity android:name=".Jogadores" />
+		<activity android:name=".Equipas" />
+		<activity android:name=".DetailJogador" />
+		<activity android:name=".DetailEquipa" />
+		<activity android:name=".Recuperarpw" />
+		<activity android:name=".Registo" />
+		<activity android:name=".Inicio">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<meta-data
+			android:name="preloaded_fonts"
+			android:resource="@array/preloaded_fonts" />
+	</application>
+
+</manifest>

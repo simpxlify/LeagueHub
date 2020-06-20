@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pon">#FF9902</color>
+    <color name="pon2">#FFC36A</color>
+    <color name="hub">#000000</color>
+    <color name="hub3">#B7000000</color>
+    <color name="hub2">#3E3D3C</color>
+    <color name="cortrasicons">#38472D08</color>
+    <color name="cortrasicons2">#FFFFFF</color>
+    <color name="jornal">#f0e9df</color>
+
+</resources>

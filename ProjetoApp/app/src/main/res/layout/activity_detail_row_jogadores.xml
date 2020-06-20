@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/hub"
+	tools:context=".DetailRowJogadores">
+
+	<TextView
+		android:id="@+id/textView224"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/posi_o"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewCountryRow" />
+
+	<TextView
+		android:id="@+id/textViewPositionRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView224" />
+
+	<TextView
+		android:id="@+id/textView223"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/pa_s"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewHeightRow" />
+
+	<TextView
+		android:id="@+id/textViewCountryRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView223" />
+
+	<TextView
+		android:id="@+id/textView14"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/altura"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewAgeRow" />
+
+	<TextView
+		android:id="@+id/textView12"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/idade"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewLNameRow" />
+
+	<TextView
+		android:id="@+id/textViewHeightRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+	<TextView
+		android:id="@+id/textViewLNameRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+	<TextView
+		android:id="@+id/textView9"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="@string/detalhes_do_jogador"
+		android:textColor="@color/pon"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/textView10"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="52dp"
+		android:text="@string/primeiro_nome"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+	<TextView
+		android:id="@+id/textViewFNameRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+	<TextView
+		android:id="@+id/textViewAgeRow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="TextView"
+		android:textColor="@color/pon"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+	<TextView
+		android:id="@+id/textView13"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="44dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/ultimo_nome"
+		android:textColor="@color/jornal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewFNameRow" />
+
+
+	<LinearLayout
+		android:id="@+id/lin"
+		android:layout_width="384dp"
+		android:layout_height="59dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="18dp"
+		android:layout_marginEnd="18dp"
+		android:layout_marginBottom="22dp"
+		android:background="@drawable/bottom_bar_shape"
+		android:elevation="5dp"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:padding="5dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent">
+
+
+		<ImageButton
+			android:id="@+id/homeBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_home_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/torneiosBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_marginStart="52dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_emoji_events_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/equipasBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_people_alt_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/jogadoresBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_marginStart="52dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/baseline_person_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+		<ImageButton
+			android:id="@+id/sedesBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="33dp"
+			android:layout_margin="10dp"
+			android:layout_marginEnd="40dp"
+			android:background="@color/pon"
+			android:padding="15dp"
+			android:src="@drawable/outline_place_black_18"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+
+	</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

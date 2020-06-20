@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:background="@color/hub"
+	tools:context=".Jogos">
+
+	<RelativeLayout
+		android:id="@+id/relativeLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+
+		<Button
+			android:id="@+id/btnCriarJogos"
+			android:layout_width="262dp"
+			android:layout_height="wrap_content"
+			android:layout_above="@+id/btnVerEstatistica"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:layout_marginStart="75dp"
+			android:layout_marginEnd="75dp"
+			android:layout_marginBottom="22dp"
+			android:background="@drawable/bottom_bar_shape"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="@string/criar_jogos"
+			android:textColor="@color/hub" />
+
+		<Button
+			android:id="@+id/btnVerEstatistica"
+			android:layout_width="262dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginStart="75dp"
+			android:layout_marginEnd="75dp"
+			android:layout_marginBottom="22dp"
+			android:background="@drawable/bottom_bar_shape"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="@string/ver_estatistica_dos_jogos"
+			android:textColor="@color/hub" />
+
+		<TextView
+			android:id="@+id/textView"
+			android:layout_width="165dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentEnd="true"
+			android:layout_marginStart="123dp"
+			android:layout_marginTop="16dp"
+			android:layout_marginEnd="123dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="@string/jogos"
+			android:textColor="@color/pon" />
+
+		<ListView
+			android:id="@+id/listViewJogos"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_above="@+id/btnCriarJogos"
+			android:layout_below="@+id/textView"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentEnd="true"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="16dp"
+			android:layout_marginEnd="16dp"
+			android:layout_marginBottom="16dp"
+			android:background="@color/hub"
+			android:dividerHeight="7dp"
+			android:divider="@color/hub"/>
+
+
+	</RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

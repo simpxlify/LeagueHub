@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".DetailEquipa">
+
+
+    <EditText
+        android:id="@+id/editTextNameT"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/retang"
+        android:textColor="@color/pon"
+        android:hint="@string/introduza_o_nome_da_equipa"
+        android:paddingStart="8dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/pon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/editTextinitialsT"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="@color/pon"
+        android:background="@drawable/retang"
+        android:hint="@string/introduza_as_iniciais_da_equipa"
+        android:paddingStart="8dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/pon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNameT" />
+
+    <Button
+        android:id="@+id/btnAddE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bottom_bar_shape"
+        android:text="@string/criar_equipa"
+        android:textColor="@color/hub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCoachT" />
+
+    <Button
+        android:id="@+id/btnAddEnoTorneio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bottom_bar_shape"
+        android:text="@string/criar_equipa_no_torneio"
+        android:textColor="@color/hub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddE" />
+
+    <EditText
+        android:id="@+id/editTextlocationT"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/retang"
+        android:ems="10"
+        android:hint="@string/introduza_a_localiza_o_da_equipa"
+        android:paddingStart="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/pon"
+        android:textColorHint="@color/pon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextinitialsT" />
+
+    <EditText
+        android:id="@+id/editTextCoachT"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/retang"
+        android:ems="10"
+        android:hint="@string/treinador"
+        android:paddingStart="8dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/pon"
+        android:textColorHint="@color/pon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextlocationT" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="174dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emblemaequipa" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
